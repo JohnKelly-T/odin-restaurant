@@ -2,6 +2,10 @@
     --olive-green: #4D5649;
 }
 
+* {
+    color: white;
+}
+
 body {
     background-color: var(--olive-green);
     padding: 1.5rem;
