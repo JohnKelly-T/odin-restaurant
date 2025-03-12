@@ -21,3 +21,7 @@ header button {
     background: none;
     border: none;
 }
+
+header button:hover {
+    cursor: pointer;
+}
