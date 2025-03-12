@@ -1,0 +1,7 @@
+:root {
+    --olive-green: #4D5649;
+}
+
+body {
+    background-color: var(--olive-green);
+}
