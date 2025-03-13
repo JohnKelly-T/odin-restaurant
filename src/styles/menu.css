@@ -19,13 +19,17 @@
 #menu-image-1 {
     flex: 1;
     align-self: start;
-    border: 1px solid brown;
+    background-image: url("../assets/img/dining-table.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #menu-image-2 {
     flex: 1;
     align-self: end;
-    border: 1px solid brown;
+    background-image: url("../assets/img/croissant.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #menu-container {
