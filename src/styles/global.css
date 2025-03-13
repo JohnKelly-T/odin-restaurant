@@ -30,6 +30,13 @@ body {
     padding: 1.5rem;
 }
 
+.body-home {
+    background-image: url("../assets/img/main-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
 #site-name {
     font-size: 1.5rem;
 }
