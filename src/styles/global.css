@@ -45,6 +45,20 @@ header button:hover {
     cursor: pointer;
 }
 
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav button {
+    transition: all 300ms ease;
+}
+
+nav button:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -66,4 +80,3 @@ footer a:hover {
     width: 1.2rem;
     fill: white;
 }
-
