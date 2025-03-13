@@ -1,6 +1,6 @@
 import "../styles/home.css";
 
-export default createHomePage = () => {
+export default () => {
     let page = document.createElement("div");
     return page;
 };
