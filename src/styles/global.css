@@ -44,3 +44,21 @@ header button {
 header button:hover {
     cursor: pointer;
 }
+
+#credit {
+    display: flex;
+}
+
+#credit:hover {
+    text-decoration: underline;
+}
+
+#credit a {
+    text-decoration: none;
+}
+
+#credit svg {
+    width: 1.2rem;
+    fill: white;
+}
+
