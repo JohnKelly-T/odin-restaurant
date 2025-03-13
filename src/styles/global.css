@@ -45,16 +45,21 @@ header button:hover {
     cursor: pointer;
 }
 
-#credit {
+footer {
     display: flex;
+    justify-content: space-between;
 }
 
-#credit:hover {
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
 
-#credit a {
-    text-decoration: none;
+#credit {
+    display: flex;
 }
 
 #credit svg {
