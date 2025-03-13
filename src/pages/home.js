@@ -23,5 +23,14 @@ export default () => {
 
     page.appendChild(welcomeMessageContainer);
     
+    // add attribution to background image in footer
+    let backgroundAttribution = document.createElement("div");
+    let attributionLink = document.createElement("a");
+    attributionLink.href = "https://www.pexels.com/photo/clear-long-stemmed-wine-glass-on-brown-table-1484516/";
+    attributionLink.textContent = "Photo by Valeria Boltneva from pexels.com";
+    backgroundAttribution.appendChild(attributionLink);
+
+    document.querySelector("footer").appendChild(backgroundAttribution);
+
     return page;
 };
