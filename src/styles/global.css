@@ -46,6 +46,10 @@ body {
     color: #5B2709;
 }
 
+.body-about {
+    background-color: var(--olive-green);
+}
+
 #site-name {
     font-size: 1.5rem;
 }
