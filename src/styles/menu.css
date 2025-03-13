@@ -37,10 +37,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    padding: 1rem 2rem 1rem;
+    padding: 0 2rem;
     column-gap: 3rem;
     row-gap: 1rem;
-    place-content: start;
+    place-content: center;
 }
 
 #menu-heading {
