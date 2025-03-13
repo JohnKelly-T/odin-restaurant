@@ -32,5 +32,9 @@ export default () => {
 
     document.querySelector("footer").appendChild(backgroundAttribution);
 
+    // add class to body
+    document.body.className = '';
+    document.body.classList.add("body-home");
+    
     return page;
 };
