@@ -37,6 +37,15 @@ body {
     background-position: right center;
 }
 
+.body-menu {
+    background-color: #FDF8F4;
+}
+
+.body-menu * {
+    font-weight: 600;
+    color: #5B2709;
+}
+
 #site-name {
     font-size: 1.5rem;
 }
