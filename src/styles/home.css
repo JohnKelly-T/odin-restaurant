@@ -29,6 +29,7 @@ body {
 #welcome-message {
     font-size: 2rem;
     margin-bottom: -1.5rem;
+    text-shadow: 2px 4px 8px black;
 }
 
 #restaurant-name {
