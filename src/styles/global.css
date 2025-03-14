@@ -110,3 +110,18 @@ footer a:hover {
     width: 1.2rem;
     fill: white;
 }
+
+.image-attribution {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.image-attribution a {
+    text-decoration: none;
+}
+
+.image-attribution a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
