@@ -63,3 +63,20 @@
     animation-duration: 1000ms, 300ms;
     animation-timing-function: ease-out;
 }
+
+@media (max-width: 992px) {  
+
+    #about-content {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    #about-content > * {
+        flex: none;
+    }
+
+    #about-image-container {
+        height: 80vh;
+        width: 100vw;
+    }
+}
