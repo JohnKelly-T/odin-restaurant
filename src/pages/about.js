@@ -30,6 +30,14 @@ export default () => {
     let aboutImageContainer = document.createElement("div");
     aboutImageContainer.id = "about-image-container";
 
+    let aboutImage1 = document.createElement("div");
+    aboutImage1.id = "about-image-1";
+    aboutImageContainer.appendChild(aboutImage1);
+
+    let aboutImage2 = document.createElement("div");
+    aboutImage2.id = "about-image-2";
+    aboutImageContainer.appendChild(aboutImage2);
+
     page.appendChild(aboutMainContainer);
     page.appendChild(aboutImageContainer);
 
