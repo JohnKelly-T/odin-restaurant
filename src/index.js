@@ -5,7 +5,6 @@ import createMenuPage from "./pages/menu";
 import createAboutPage from "./pages/about";
 
 let contentDiv = document.querySelector("#content");
-let homePage = createHomePage();
 
 let homeNav = document.querySelector("#home");
 let menuNav = document.querySelector("#menu");
@@ -26,4 +25,4 @@ aboutNav.addEventListener("click", () => {
     contentDiv.appendChild(createAboutPage());
 });
 
-contentDiv.appendChild(homePage);
+contentDiv.appendChild(createHomePage());
