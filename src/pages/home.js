@@ -2,7 +2,7 @@ import "../styles/home.css";
 
 export default () => {
     let page = document.createElement("div");
-    page.id = "homeContent";
+    page.id = "home-content";
     
     let blurDiv = document.createElement("div");
     blurDiv.id = "blur";

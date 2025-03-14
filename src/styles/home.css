@@ -14,7 +14,7 @@
     animation-timing-function: ease-out;
 }
 
-#homeContent {
+#home-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
