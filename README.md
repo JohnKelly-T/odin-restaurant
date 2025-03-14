@@ -6,13 +6,16 @@ Odin Dining is a fictional restaurant website created as part of The Odin Projec
 ## 🌐 Live Demo
 [Click here to view the live demo](https://johnkelly-t.github.io/odin-restaurant/)
 
-
 ## ⚡ Features
 
 - **Modular JavaScript**: Uses separate modules for each page of the website.
 - **Dynamically Loaded Content**: Each page is generated via JavaScript.
 - **Styled UI**: Custom-designed interface to create an appealing restaurant website.
 - **Webpack Configuration**: Bundled assets for optimized performance.
+
+## 📷 Screenshot
+
+![postspark_export_2025-03-14_22-11-08](https://github.com/user-attachments/assets/00e39484-834e-414e-84d5-d894f75b024c)
 
 
 ## 🛠️ Technologies Used
