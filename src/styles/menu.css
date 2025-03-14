@@ -22,6 +22,10 @@
     background-image: url("../assets/img/dining-table.jpg");
     background-size: cover;
     background-position: center;
+
+    animation-name: slide-up, fade-in;
+    animation-duration: 800ms, 500ms;
+    animation-timing-function: ease-out, ease;
 }
 
 #menu-image-2 {
@@ -30,6 +34,10 @@
     background-image: url("../assets/img/croissant.jpg");
     background-size: cover;
     background-position: center;
+
+    animation-name: slide-down, fade-in;
+    animation-duration: 800ms, 500ms;
+    animation-timing-function: ease-out, ease;
 }
 
 #menu-container {
@@ -41,6 +49,10 @@
     column-gap: 3rem;
     row-gap: 1rem;
     place-content: center;
+
+    animation-name: slide-up-short, fade-in;
+    animation-duration: 1000ms, 300ms;
+    animation-timing-function: ease;
 }
 
 #menu-heading {

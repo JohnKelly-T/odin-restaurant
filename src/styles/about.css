@@ -9,6 +9,10 @@
 
 #about-main-container {
     flex: 1;
+
+    animation-name: slide-up-short, fade-in;
+    animation-duration: 1s, 400ms;
+    animation-timing-function: ease;
 }
 
 #about-heading {
@@ -45,6 +49,10 @@
     height: 80%;
     background-image: url("../assets/img/man-cooking.jpg");
     background-size: cover;
+
+    animation-name: slide-from-right, fade-in;
+    animation-duration: 800ms, 300ms;
+    animation-timing-function: ease-out;
 }
 
 #about-image-2 {
@@ -52,4 +60,8 @@
     height: 60%;
     background-image: url("../assets/img/gourmet-food.jpg");
     background-size: cover;
+
+    animation-name: slide-from-right, fade-in;
+    animation-duration: 1000ms, 300ms;
+    animation-timing-function: ease-out;
 }
