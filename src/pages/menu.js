@@ -40,7 +40,7 @@ export default () => {
         },
         "Desserts": {
             "Bifröst Soufflé": ["$20", "A light and airy vanilla soufflé with a molten berry compote, served with gold-dusted sugar."],
-            "Eternal Apple Tart": ["$18", "Caramelized apple tart with spiced honey drizzle, inspired by Idunn’s legendary apples."],
+            "Eternal Apple Tart": ["$18", "Caramelized apple tart with spiced honey drizzle, inspired by Idunn's legendary apples."],
             "Niflheim Noir": ["$22", "A decadent dark chocolate mousse infused with smoked sea salt and espresso."]
         },
         "Drinks & Cocktails": {
@@ -87,6 +87,15 @@ export default () => {
     }
 
     page.appendChild(menuContainer);
+
+    // add attribution to background image in footer
+    let imageAttribution = document.createElement("div");
+    imageAttribution.classList.add("image-attribution");
+    let attributionLink = document.createElement("div");
+    attributionLink.innerHTML = "Photos by <a href='https://www.pexels.com/photo/a-table-with-wine-glasses-and-plates-on-it-27305346/'>Valeria Boltneva</a> and <a href='https://www.pexels.com/photo/delicious-chocolate-croissant-on-rustic-plate-30391094/'>Letícia Alvares</a> from pexels.com";
+    imageAttribution.appendChild(attributionLink);
+
+    page.appendChild(imageAttribution);
 
     document.body.className = '';
     document.body.classList.add("body-menu");

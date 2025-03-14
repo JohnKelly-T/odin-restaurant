@@ -41,6 +41,15 @@ export default () => {
     page.appendChild(aboutMainContainer);
     page.appendChild(aboutImageContainer);
 
+    // add attribution to background image in footer
+    let imageAttribution = document.createElement("div");
+    imageAttribution.classList.add("image-attribution");
+    let attributionLink = document.createElement("div");
+    attributionLink.innerHTML = "Photos by <a href='https://www.pexels.com/photo/man-decorating-food-2403391/'>Yente Van Eynde</a> and <a href='https://www.pexels.com/photo/gourmet-fish-dish-10570573/'>Paolo Sbalzer</a> from pexels.com";
+    imageAttribution.appendChild(attributionLink);
+
+    page.appendChild(imageAttribution);
+
     document.body.className = '';
     document.body.classList.add("body-about");
     
